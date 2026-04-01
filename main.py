@@ -13,6 +13,9 @@ if __name__ == "__main__":
 
     print(dog2)
     dog2.speak()
+    dog2.perform_trick("sit")
+    dog2.set_age(8)
+    print()
 
     print(cat1)
     cat1.speak()
